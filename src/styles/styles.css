@@ -54,9 +54,21 @@ body {
   margin-bottom: 200px;
 }
 
-.section2-container {
-  padding: 300px 0 300px 0;
-  color: white;
+.container-content-second {
+  padding: 100px 0 80px 0;
+  background-color: #252525;
+}
+
+.container-content-second.center {
+  padding: 30px 0 30px 0;
+  background-color: #252525;
+  color: grey;
+}
+
+.container-content-second.line {
+  border-top: 1px solid rgb(60, 60, 60);
+  padding: 0px;
+  margin: 0px 300px 0px 300px;
   background-color: #252525;
 }
 
@@ -64,65 +76,9 @@ body {
 /* CONTAINERS konec */
 /*                  */
 
-.services-img {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 15px;
-}
-
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  background-color: rgba(0, 0, 0, 0.4); /* Poloprůhledné pozadí */
-  padding: 5px 10px;
-  text-align: center;
-  border-radius: 5px;
-}
-
-/* ------------ */
-/* POSUVNÝ TEXT */
-/* ------------ */
-.marquee {
-  position: absolute;
-  top: 3400px;
-  left: 0;
-  width: 100vw; /* Celá šířka obrazovky (viewport width) */
-  overflow-x: hidden; /* Skryje text mimo viditelnou oblast */
-  white-space: nowrap; /* Zabrání zalomení textu */
-  z-index: 5; /* Zajistí, že text bude nahoře */
-  pointer-events: none; /* Volitelné: zabrání interakci s textem */
-}
-
-.marquee-text {
-  display: inline-block;
-  font-size: 120px; /* Velikost textu */
-  font-weight: 700; /* Tlustší obrys */
-  color: transparent; /* Skryje vnitřek textu */
-  -webkit-text-stroke: 1px var(--company-color-lightred); /* Obrys textu */
-  animation: scroll-left 30s linear infinite; /* Animace */
-}
-
-.marquee-inner {
-  display: inline-flex; /* Flex pro vedlejší texty */
-  animation: scroll-left 10s linear infinite;
-}
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0); /* Start mimo obrazovku zprava */
-  }
-  100% {
-    transform: translateX(-50%); /* Konec mimo obrazovku vlevo */
-  }
-}
-
-/* ------------------- */
-/* POSUVNÝ TEXT konec */
-/* ------------------- */
+/* -----*/
+/* LOGO */
+/* -----*/
 
 .logo-image {
   display: flex;
@@ -146,6 +102,10 @@ body {
   width: 40%;
   height: 80%;
 }
+
+/* ---------- */
+/* LOGO konec */
+/* ---------- */
 
 /* ------ */
 /* FONTY */
@@ -191,6 +151,77 @@ body {
   color: var(--company-color-lightred);
 }
 
-/* ------ */
+/* ---------- */
 /* FONTY konec*/
-/* ------ */
+/* ---------- */
+
+/* ----- */
+/* DALŠÍ */
+/* ----- */
+.services-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4); /* Poloprůhledné pozadí */
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.background-block {
+  background-color: #252525;
+}
+
+/* ----------- */
+/* DALŠÍ konec */
+/* ----------- */
+
+/* ------------ */
+/* POSUVNÝ TEXT */
+/* ------------ */
+.marquee {
+  position: absolute;
+  top: 3400px;
+  left: 0;
+  width: 100vw; /* Celá šířka obrazovky (viewport width) */
+  overflow-x: hidden; /* Skryje text mimo viditelnou oblast */
+  white-space: nowrap; /* Zabrání zalomení textu */
+  z-index: 5; /* Zajistí, že text bude nahoře */
+  pointer-events: none; /* Volitelné: zabrání interakci s textem */
+}
+
+.marquee-text {
+  display: inline-block;
+  font-size: 120px; /* Velikost textu */
+  font-weight: 700; /* Tlustší obrys */
+  color: transparent; /* Skryje vnitřek textu */
+  -webkit-text-stroke: 1px var(--company-color-lightred); /* Obrys textu */
+  animation: scroll-left 30s linear infinite; /* Animace */
+}
+
+.marquee-inner {
+  display: inline-flex; /* Flex pro vedlejší texty */
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0); /* Start mimo obrazovku zprava */
+  }
+  100% {
+    transform: translateX(-50%); /* Konec mimo obrazovku vlevo */
+  }
+}
+
+/* ------------------- */
+/* POSUVNÝ TEXT konec */
+/* ------------------- */

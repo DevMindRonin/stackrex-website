@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import CompanyLogo from "./../../assets/images/gletonlogo.png";
 const Contact = () => {
   return (
-    <div className="section2-container">
+    <div className="container-content-second">
       <Container>
         <Row>
           <Col md={3}>
@@ -12,7 +12,8 @@ const Contact = () => {
 
             <div className="font-contact-common-grey me-5">
               Společnost zapsaná v obchodním rejstříku vedeném Krajským soudem v
-              Brně, oddíl C, vložka 79794
+              Brně, <br />
+              oddíl C, vložka 79794
             </div>
           </Col>
           <Col md={3}>

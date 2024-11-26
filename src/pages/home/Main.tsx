@@ -117,10 +117,6 @@ const HomeMain = () => {
       <Container className="container-content-main-sections" id="our-team">
         <Team />
       </Container>
-      <Container
-        className="container-content-main-sections"
-        id="contact"
-      ></Container>
     </div>
   );
 };
