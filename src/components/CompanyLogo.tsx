@@ -3,7 +3,7 @@ import "../styles/styles.css";
 
 const CompanyLogo = () => {
   return (
-    <div className="logo-image ">
+    <div className="logo-image">
       {data.map((image, id) => {
         return (
           <div key={id}>

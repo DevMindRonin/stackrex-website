@@ -2,8 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const NumbersPage = () => {
   return (
-    <div className="container-content-numbers ">
-      <Container>
+    <Container>
+      <div className="container-content-numbers">
         <Row>
           <Col>
             <div className="font-important me-3">Mezníky</div>
@@ -49,8 +49,9 @@ const NumbersPage = () => {
             </Row>
           </Col>
         </Row>
-      </Container>
-    </div>
+      </div>
+    </Container>
+    // </div>
   );
 };
 

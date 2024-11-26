@@ -5,10 +5,10 @@ import { Container, Row, Col } from "react-bootstrap";
 const Hero = () => {
   return (
     <div id="top">
-      <img src={HeroBgImage} alt="" className="container-hero-image" />
+      <img src={HeroBgImage} alt="" className="container-hero-image " />
       <Container>
         <Row>
-          <Col className="hero-claim">
+          <Col className="hero-claim ">
             Boříme <br />
             hranice běžného
           </Col>

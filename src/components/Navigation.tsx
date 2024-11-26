@@ -16,8 +16,8 @@ const MyNavbar = () => {
   });
 
   return (
-    <Navbar className="main-menu">
-      <Container>
+    <Container>
+      <Navbar className="main-menu">
         <Navbar.Brand href="#top">
           <img
             alt=""
@@ -48,8 +48,8 @@ const MyNavbar = () => {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </Container>
   );
 };
 
