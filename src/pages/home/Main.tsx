@@ -1,14 +1,14 @@
-import React from "react";
 import PictureDashboard from "../../assets/images/dashboard1.jpg";
 import PicturePayment from "../../assets/images/payment1.jpg";
 import PictureSignin from "../../assets/images/signin1.jpg";
 import CompanyLogo from "../../components/CompanyLogo";
 import { Container, Row, Col } from "react-bootstrap";
+import Team from "./Team";
 
 const HomeMain = () => {
   return (
-    <div className="content-main" id="kotva-co-umime">
-      <Container className="content-main-container">
+    <div className="container-content-main" id="what-we-can-do">
+      <Container className="container-content-main-sections">
         <Row>
           <Col md={4}>
             <div className="font-section-name">Co umíme</div>
@@ -89,7 +89,7 @@ const HomeMain = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="content-main-container">
+      <Container className="container-content-main-sections">
         <Row>
           <Col>
             <div className="font-important text-center">
@@ -100,7 +100,7 @@ const HomeMain = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="content-main-container" id="kotva-nasi-klienti">
+      <Container className="container-content-main-sections" id="our-clients">
         <Row>
           <Col md={3}>
             <div className="font-section-name">Naši klineti</div>
@@ -114,6 +114,13 @@ const HomeMain = () => {
           </Col>
         </Row>
       </Container>
+      <Container className="container-content-main-sections" id="our-team">
+        <Team />
+      </Container>
+      <Container
+        className="container-content-main-sections"
+        id="contact"
+      ></Container>
     </div>
   );
 };

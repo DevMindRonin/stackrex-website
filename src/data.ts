@@ -10,7 +10,12 @@ import img9 from "./assets/images/cooperation/logo-morso.png";
 import img10 from "./assets/images/cooperation/logo-banan.png";
 import img11 from "./assets/images/cooperation/logo-eurohelp.png";
 
-const data = [
+import imagemember1 from "./assets/images/cooperation/logo-eurohelp.png";
+import imagemember2 from "./assets/images/cooperation/logo-eurohelp.png";
+import imagemember3 from "./assets/images/cooperation/logo-eurohelp.png";
+import imagemember4 from "./assets/images/cooperation/logo-eurohelp.png";
+
+export const data = [
   {
     logo: img1,
   },
@@ -24,6 +29,13 @@ const data = [
   { logo: img9 },
   { logo: img10 },
   { logo: img11 },
+];
+
+export const team = [
+  { member: imagemember1 },
+  { member: imagemember2 },
+  { member: imagemember3 },
+  { member: imagemember4 },
 ];
 
 export default data;

@@ -16,45 +16,10 @@ body {
   overflow-x: hidden;
 }
 
-/* důležitá sdělení */
-.font-important {
-  font-size: 50px;
-  margin-bottom: 20px;
-  font-weight: 600;
-  margin-right: 10px;
-}
-
-/* názvy sekcí */
-.font-section-name {
-  color: grey;
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.font-important-redlight {
-  color: var(--company-color-lightred);
-}
-
-.page-container {
-  position: relative;
-  height: 100vh;
-}
-
-.hero-claim {
-  /* border: red solid 1px; */
-  position: relative;
-  top: 2.3em;
-  z-index: 1;
-  font-size: 120px;
-  font-weight: 700;
-  line-height: 1.25em;
-  color: white;
-  /* margin-bottom: 2.8em; */
-  margin: 0em 1em 2.8em 1em;
-}
-
-.hero-bg-image {
+/*            */
+/* CONTAINERS */
+/*            */
+.container-hero-image {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -67,8 +32,9 @@ body {
   z-index: -1;
 }
 
-.content-numbers {
+.container-content-numbers {
   position: relative;
+  top: 160px;
   z-index: 1;
   padding: 60px;
   margin: 5% 15% 0 15%;
@@ -77,27 +43,26 @@ body {
   border-radius: 10px;
 }
 
-.content-main {
-  position: relative;
-  top: -140px;
+.container-content-main {
   z-index: -1;
   padding: 300px 0 300px 0;
   color: white;
   background-color: #343434;
 }
 
-.content-main-container {
+.container-content-main-sections {
   margin-bottom: 200px;
 }
 
 .section2-container {
-  position: relative;
-  top: -140px;
-  z-index: -1;
   padding: 300px 0 300px 0;
   color: white;
   background-color: #252525;
 }
+
+/*                  */
+/* CONTAINERS konec */
+/*                  */
 
 .services-img {
   position: relative;
@@ -118,7 +83,9 @@ body {
   border-radius: 5px;
 }
 
-/* POSOUVAJÍCÍ SE TEXT */
+/* ------------ */
+/* POSUVNÝ TEXT */
+/* ------------ */
 .marquee {
   position: absolute;
   top: 3400px;
@@ -153,6 +120,10 @@ body {
   }
 }
 
+/* ------------------- */
+/* POSUVNÝ TEXT konec */
+/* ------------------- */
+
 .logo-image {
   display: flex;
   justify-content: center;
@@ -165,3 +136,61 @@ body {
 .logo-image-one {
   margin: 30px 20px 30px 20px;
 }
+
+.logo-image-contact-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.logo-image-contact {
+  width: 40%;
+  height: 80%;
+}
+
+/* ------ */
+/* FONTY */
+/* ------ */
+
+.hero-claim {
+  position: relative;
+  top: 2.3em;
+  z-index: 1;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 1.25em;
+  color: white;
+  margin: 0em 1em 2.8em 1em;
+}
+
+.font-contact-common-grey {
+  color: grey;
+  line-height: 30px;
+}
+
+/* důležitá sdělení */
+.font-important {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+/* názvy sekcí */
+.font-section-name {
+  color: grey;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.font-section-name.white {
+  color: white;
+}
+
+.font-important-redlight {
+  color: var(--company-color-lightred);
+}
+
+/* ------ */
+/* FONTY konec*/
+/* ------ */

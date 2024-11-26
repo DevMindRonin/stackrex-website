@@ -18,7 +18,7 @@ const MyNavbar = () => {
   return (
     <Navbar className="main-menu">
       <Container>
-        <Navbar.Brand href="#kotva-hero-page">
+        <Navbar.Brand href="#top">
           <img
             alt=""
             src={logoGleton}
@@ -31,16 +31,19 @@ const MyNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-light fw-bold ">
             <Nav.Link
-              href="#kotva-co-umime"
+              href="#what-we-can-do"
               className="text-light fw-bold me-4"
             >
               CO UMÍME
             </Nav.Link>
-            <Nav.Link href="#kotva-nasi-klienti" className="text-light me-4">
+            <Nav.Link href="#our-clients" className="text-light me-4">
               NAŠI KLIENTI
             </Nav.Link>
+            <Nav.Link href="#our-team" className="text-light me-4">
+              TÝM
+            </Nav.Link>
 
-            <Nav.Link href="#home" className="text-light fw-bold me-4">
+            <Nav.Link href="#contact" className="text-light fw-bold me-4">
               KONTAKT
             </Nav.Link>
           </Nav>

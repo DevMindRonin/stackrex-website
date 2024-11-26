@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const NumbersPage = () => {
   return (
-    <div className="content-numbers ">
+    <div className="container-content-numbers ">
       <Container>
         <Row>
           <Col>

@@ -11,8 +11,8 @@ const App = () => {
       <Hero />
       <Numbers />
       <Main />
-      <Contact />
       <RunningText />
+      <Contact />
     </>
   );
 };
