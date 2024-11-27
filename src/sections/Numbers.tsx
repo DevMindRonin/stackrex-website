@@ -1,3 +1,4 @@
+import "../styles/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 const NumbersPage = () => {
@@ -7,7 +8,7 @@ const NumbersPage = () => {
         <Row>
           <Col>
             <div className="font-important me-3 ">Mezníky</div>
-            <div className="mb-4">
+            <div className="mb-4 font-grey">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
               cupiditate quod optio dignissimos dolor accusamus por
             </div>
@@ -19,7 +20,7 @@ const NumbersPage = () => {
                   <div className="font-important">237</div>
                   <div className="d-flex flex-column pt-3 pb-3 ">
                     <div className="font-important-redlight fs-4 lh-1 ">+</div>
-                    <div className="lh-1">Spokojených klientů</div>
+                    <div className="lh-1 font-grey">Spokojených klientů</div>
                   </div>
                 </div>
               </Col>
@@ -27,7 +28,7 @@ const NumbersPage = () => {
                 <div className="font-important">300</div>
                 <div className="d-flex flex-column pt-3 pb-3 ">
                   <div className="font-important-redlight fs-4 lh-1 ">+</div>
-                  <div className="lh-1">Dokončených projetků</div>
+                  <div className="lh-1 font-grey">Dokončených projetků</div>
                 </div>
               </Col>
               <Col className="d-flex flex-row me-5">
@@ -35,7 +36,7 @@ const NumbersPage = () => {
                   <div className="font-important">237</div>
                   <div className="d-flex flex-column pt-3 pb-3 ">
                     <div className="font-important-redlight fs-4 lh-1 ">+</div>
-                    <div className="lh-1">Spokojených klientů</div>
+                    <div className="lh-1 font-grey">Spokojených klientů</div>
                   </div>
                 </div>
               </Col>
@@ -43,7 +44,7 @@ const NumbersPage = () => {
                 <div className="font-important">300</div>
                 <div className="d-flex flex-column pt-3 pb-3 ">
                   <div className="font-important-redlight fs-4 lh-1 ">+</div>
-                  <div className="lh-1">Dokončených projetků</div>
+                  <div className="lh-1 font-grey">Dokončených projetků</div>
                 </div>
               </Col>
             </Row>

@@ -1,20 +1,16 @@
 import { Container, Row, Col } from "react-bootstrap";
+import "./../styles/styles.css";
 const Header = () => {
   return (
-    <footer>
-      <Container fluid>
-        <Row>
-          <Col>
-            <div className="background-block">
-              <div className="container-content-second line"></div>
-              <div className="container-content-second center text-center ">
-                Copyright © 2024 Gleton s.r.o.
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </footer>
+    <Container fluid>
+      <Row className="background-block">
+        <Col>
+          <div className="text-center m-4 font-grey contact">
+            Copyright © 2024 Gleton s.r.o.
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

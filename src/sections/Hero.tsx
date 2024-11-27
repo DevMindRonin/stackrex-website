@@ -15,7 +15,7 @@ const Hero = () => {
         </Row>
         <Row className="d-flex flex-row justify-content-between mb-5">
           <Col></Col>
-          <Col className="fs-5">
+          <Col className="fs-5 font-white">
             Vytváříme webové a mobilní aplikace, které pomáhají našim klientů
             lépe obstát, v neustále se měnícím konkurenčním prostředí.
           </Col>

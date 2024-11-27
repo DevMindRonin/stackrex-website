@@ -1,6 +1,10 @@
 :root {
   --company-color-lightred: rgb(227, 0, 69);
   --company-color-red: rgb(155, 1, 055);
+  --text-color-white: #fefefe;
+  --text-color-grey: grey;
+  --background-color-lightgrey: #343434;
+  --background-color-darkgrey: #252525;
 }
 
 /* Globální styly pro celé React aplikaci */
@@ -8,8 +12,7 @@
 body html {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  color: white;
-  background-color: black;
+  color: var(--text-color-white);
   margin: 0;
   padding: 0;
   width: 100%;
@@ -36,39 +39,42 @@ body html {
   position: relative;
   top: 160px;
   z-index: 1;
-  /* padding: 60px;
-  margin: 5% 15% 0 15%; */
-  background-color: #2b2b2b;
+  background-color: var(--background-color-darkgrey);
   border-radius: 10px;
 }
 
 .container-content-main {
-  color: white;
-  background-color: #343434;
+  color: var(--text-color-white);
+  background-color: var(--background-color-lightgrey);
 }
 
+.container-content-main-sections.firstone {
+  padding: 300px 0px 50px 0px;
+  color: var(--text-color-white);
+}
 .container-content-main-sections {
-  padding: 300px 0px 300px 0px;
-  margin-bottom: 200px;
-  color: white;
+  padding: 0px 0px 50px 0px;
+  color: var(--text-color-white);
 }
 
 .container-content-second {
-  padding: 100px 0 80px 0;
-  background-color: #252525;
+  padding: 100px 0px 80px 0px;
+  background-color: var(--background-color-darkgrey);
 }
 
+/* footer */
 .container-content-second.center {
-  padding: 30px 0 30px 0;
-  background-color: #252525;
-  color: grey;
+  padding: 30px 0px 30px 0px;
+  background-color: var(--background-color-darkgrey);
+  color: var(--text-color-grey);
 }
 
+/*footer*/
 .container-content-second.line {
   border-top: 1px solid rgb(60, 60, 60);
   padding: 0px;
   margin: 0px 300px 0px 300px;
-  background-color: #252525;
+  background-color: var(--background-color-darkgrey);
 }
 
 /*                  */
@@ -94,12 +100,12 @@ body html {
 
 .logo-image-contact-container {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
-.logo-image-contact {
-  width: 40%;
-  height: 80%;
+.logo-image-contact-container.size {
+  width: 30%;
+  height: 30%;
 }
 
 /* ---------- */
@@ -117,12 +123,19 @@ body html {
   font-size: clamp(2rem, 15vw, 120px);
   font-weight: 700;
   line-height: 1.25em;
-  color: white;
+  color: var(--text-color-white);
   margin: 0em 1em 2.8em 1em;
 }
 
-.font-contact-common-grey {
-  color: grey;
+.font-white {
+  color: var(--text-color-white);
+}
+
+.font-grey {
+  color: var(--text-color-grey);
+}
+
+.font-grey.contact {
   line-height: 30px;
 }
 
@@ -136,14 +149,14 @@ body html {
 
 /* názvy sekcí */
 .font-section-name {
-  color: grey;
+  color: var(--text-color-grey);
   font-weight: 800;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
 .font-section-name.white {
-  color: white;
+  color: var(--text-color-white);
 }
 
 .font-important-redlight {
@@ -177,7 +190,7 @@ body html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--text-color-white);
   background-color: rgba(0, 0, 0, 0.4); /* Poloprůhledné pozadí */
   padding: 5px 10px;
   text-align: center;
@@ -185,7 +198,7 @@ body html {
 }
 
 .background-block {
-  background-color: #252525;
+  background-color: var(--background-color-darkgrey);
 }
 
 /* ----------- */

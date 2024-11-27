@@ -6,7 +6,7 @@ import "./../styles/styles.css";
 
 const Services = () => {
   return (
-    <Container className="container-content-main-sections">
+    <Container className="container-content-main-sections firstone">
       <Row>
         <Col md={3}>
           <div className="font-section-name">Co umíme</div>

@@ -1,5 +1,4 @@
 import "./../../styles/styles.css";
-
 import Hero from "../../sections/Hero";
 import Numbers from "../../sections/Numbers";
 import Main from "./../../sections/Main";
@@ -8,11 +7,11 @@ import RunningText from "../../components/RunningText";
 const App = () => {
   return (
     <>
-      {/* <Hero /> */}
-      {/* <Numbers /> */}
+      <Hero />
+      <Numbers />
       <Main />
-      {/* <RunningText />
-      <Contact /> */}
+      <RunningText />
+      <Contact />
     </>
   );
 };
