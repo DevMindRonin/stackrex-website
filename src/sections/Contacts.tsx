@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import CompanyLogo from "./../../assets/images/gletonlogo.png";
+import CompanyLogo from "./../assets/images/gletonlogo.png";
 const Contact = () => {
   return (
     <div className="container-content-second">

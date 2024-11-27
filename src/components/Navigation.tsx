@@ -16,20 +16,20 @@ const MyNavbar = () => {
   });
 
   return (
-    <Container>
-      <Navbar className="main-menu">
+    <Container fluid>
+      <Navbar className="main-menu" expand="lg">
         <Navbar.Brand href="#top">
           <img
-            alt=""
+            alt="Gleton Logo"
             src={logoGleton}
-            width="100%"
-            height="100%"
+            width="100"
+            height="auto"
             className="d-inline-block align-top"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto text-light fw-bold ">
+          <Nav className="ms-auto text-light fw-bold">
             <Nav.Link
               href="#what-we-can-do"
               className="text-light fw-bold me-4"
@@ -42,7 +42,6 @@ const MyNavbar = () => {
             <Nav.Link href="#our-team" className="text-light me-4">
               TÝM
             </Nav.Link>
-
             <Nav.Link href="#contact" className="text-light fw-bold me-4">
               KONTAKT
             </Nav.Link>

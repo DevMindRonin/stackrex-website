@@ -7,9 +7,9 @@ import "./styles/styles.css";
 const App = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Home />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

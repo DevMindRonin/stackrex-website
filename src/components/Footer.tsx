@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Header = () => {
   return (
     <footer>
-      <Container>
+      <Container fluid>
         <Row>
           <Col>
             <div className="background-block">

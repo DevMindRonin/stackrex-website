@@ -2,7 +2,7 @@ import React from "react";
 import { team } from "../data.ts";
 const TeamMembers = () => {
   return (
-    <div className="d-flex flex-row ">
+    <div className="d-flex flex-row flex-wrap">
       {team.map((member) => {
         return (
           <div className="me-5">

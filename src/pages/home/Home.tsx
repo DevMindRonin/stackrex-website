@@ -1,18 +1,18 @@
 import "./../../styles/styles.css";
-import { Container, Row, Col } from "react-bootstrap";
-import Hero from "./Hero";
-import Numbers from "./Numbers";
-import Main from "./Main";
-import Contact from "./Contact";
+
+import Hero from "../../sections/Hero";
+import Numbers from "../../sections/Numbers";
+import Main from "./../../sections/Main";
+import Contact from "../../sections/Contacts";
 import RunningText from "../../components/RunningText";
 const App = () => {
   return (
     <>
-      <Hero />
-      <Numbers />
+      {/* <Hero /> */}
+      {/* <Numbers /> */}
       <Main />
-      <RunningText />
-      <Contact />
+      {/* <RunningText />
+      <Contact /> */}
     </>
   );
 };

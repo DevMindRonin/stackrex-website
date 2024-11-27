@@ -1,8 +1,8 @@
-.main-menu {
+/* .main-menu {
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 100%;
+
   padding: 15px 0 15px 0px;
   background-color: transparent;
   z-index: 1000;
@@ -11,4 +11,28 @@
 
 .main-menu.scrolled {
   background-color: #181818;
+} */
+
+.main-menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 15px 15px;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000;
+  transition: background-color 0.5s ease;
+}
+
+.main-menu.scrolled {
+  background-color: #181818;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.navbar-brand img {
+  max-width: 120px;
+  height: auto;
 }
