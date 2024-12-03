@@ -6,7 +6,7 @@ import "./../styles/styles.css";
 
 const Services = () => {
   return (
-    <Container className="container-content-main-sections firstone">
+    <Container className="container-content-main sections firstone">
       <Row>
         <Col md={3}>
           <div className="font-section-name">Co umíme</div>
@@ -24,7 +24,7 @@ const Services = () => {
             <img
               src={PictureDashboard}
               alt="Company Dashboard"
-              className="services-img"
+              className="img-fluid services-img"
             />
             <div className="overlay-text">DASHBOARD</div>
           </div>
@@ -33,7 +33,7 @@ const Services = () => {
             <img
               src={PictureSignin}
               alt="Company Dashboard"
-              className="services-img"
+              className="img-fluid services-img"
             />
             <div className="overlay-text">SIGN-IN</div>
           </div>
@@ -41,7 +41,7 @@ const Services = () => {
             <img
               src={PictureDashboard}
               alt="Company Dashboard"
-              className="services-img"
+              className="img-fluid services-img"
             />
             <div className="overlay-text">DASHBOARD</div>
           </div>
@@ -50,7 +50,7 @@ const Services = () => {
             <img
               src={PicturePayment}
               alt="Company Dashboard"
-              className="services-img"
+              className="img-fluid services-img"
             />
             <div className="overlay-text">PAYMENT</div>
           </div>
@@ -60,7 +60,7 @@ const Services = () => {
             <img
               src={PictureDashboard}
               alt="Company Dashboard"
-              className="services-img"
+              className="img-fluid services-img"
             />
             <div className="overlay-text">DASHBOARDS</div>
           </div>
@@ -69,11 +69,10 @@ const Services = () => {
             <img
               src={PictureSignin}
               alt="Company Dashboard"
-              className="services-img"
+              className="img-fluid services-img"
             />
             <div className="overlay-text">SIGN-IN</div>
           </div>
-          <div className="services-img hide"></div>
         </Col>
       </Row>
     </Container>

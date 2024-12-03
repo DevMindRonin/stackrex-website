@@ -37,7 +37,7 @@ body html {
 
 .container-content-numbers {
   position: relative;
-  top: 160px;
+  top: 320px;
   z-index: 1;
   background-color: var(--background-color-darkgrey);
   border-radius: 10px;
@@ -48,13 +48,13 @@ body html {
   background-color: var(--background-color-lightgrey);
 }
 
-.container-content-main-sections.firstone {
-  padding: 300px 0px 50px 0px;
-  color: var(--text-color-white);
+.container-content-main.sections {
+  padding: 0px 0px 100px 0px;
 }
-.container-content-main-sections {
-  padding: 0px 0px 50px 0px;
-  color: var(--text-color-white);
+
+.container-content-main.sections.firstone {
+  padding: 300px 0px 150px 0px;
+  margin-top: 180px;
 }
 
 .container-content-second {
@@ -85,18 +85,20 @@ body html {
 /* LOGO */
 /* -----*/
 
-.logo-image {
+/* .logo-image {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  filter: grayscale(100%);
-  padding: 10px;
 }
 
 .logo-image-one {
   margin: 30px 60px 30px 20px;
 }
+.logo-image-one.stacky {
+  filter: grayscale(100%);
+} */
 
 .logo-image-contact-container {
   width: 100%;
@@ -125,6 +127,7 @@ body html {
   line-height: 1.25em;
   color: var(--text-color-white);
   margin: 0em 1em 2.8em 1em;
+  word-break: break-word;
 }
 
 .font-white {
@@ -142,11 +145,16 @@ body html {
 /* důležitá sdělení */
 .font-important {
   font-size: 50px;
-  overflow-wrap: break-word;
   margin-bottom: 20px;
   font-weight: 600;
+  word-break: break-word;
 }
 
+.font-important.numbers {
+  word-break: normal;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
 /* názvy sekcí */
 .font-section-name {
   color: var(--text-color-grey);
@@ -175,6 +183,41 @@ body html {
   .services-img.hide {
     display: none;
   }
+  .fs-5.font-white {
+    margin-top: 15.5em;
+  }
+  .hero-claim {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .font-important {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  .fs-5.font-white {
+    margin-top: 10.5em;
+    margin-right: 10.5;
+  }
+  .hero-claim {
+    margin: 1em 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-claim {
+    margin: 0.5em 0.5em;
+    padding-bottom: 50px;
+  }
+  .fs-5.font-white {
+    margin-top: 7em;
+    margin-right: 1em;
+    padding-top: 10px;
+  }
+  .triangle {
+    display: none;
+  }
 }
 
 .services-img {
@@ -183,6 +226,10 @@ body html {
   height: 200px;
   border-radius: 15px;
   margin: 15px;
+}
+
+.stack-img {
+  filter: grayscale(100%);
 }
 
 .overlay-text {
@@ -197,6 +244,14 @@ body html {
   border-radius: 5px;
 }
 
+.team-container {
+  position: relative;
+}
+
+.team-container-img {
+  border-radius: 15px;
+}
+
 .background-block {
   background-color: var(--background-color-darkgrey);
 }
@@ -208,40 +263,62 @@ body html {
 /* ------------ */
 /* POSUVNÝ TEXT */
 /* ------------ */
-.marquee {
-  position: absolute;
-  top: 3400px;
-  left: 0;
-  width: 100vw; /* Celá šířka obrazovky (viewport width) */
-  overflow-x: hidden; /* Skryje text mimo viditelnou oblast */
-  white-space: nowrap; /* Zabrání zalomení textu */
-  z-index: 5; /* Zajistí, že text bude nahoře */
-  pointer-events: none; /* Volitelné: zabrání interakci s textem */
+.marquee1 {
+  overflow-x: hidden;
+  overflow-y: visible;
+  width: 100%;
+  position: relative; /* Aby se správně aplikovala animace */
 }
 
-.marquee-text {
-  display: inline-block;
+/* Nastavení pro samotný běžící text */
+.marquee-text1 {
+  display: inline-block; /* Důležité pro horizontální posun */
   font-size: 120px; /* Velikost textu */
   font-weight: 700; /* Tlustší obrys */
-  color: transparent; /* Skryje vnitřek textu */
+  color: transparent; /* Červená barva textu */
   -webkit-text-stroke: 1px var(--company-color-lightred); /* Obrys textu */
-  animation: scroll-left 30s linear infinite; /* Animace */
+  padding: 10px; /* Padding pro orámování */
+
+  white-space: nowrap; /* Zamezí zalamování textu */
+  animation: marquee 70s linear infinite; /* Animace běhu textu */
 }
 
-.marquee-inner {
-  display: inline-flex; /* Flex pro vedlejší texty */
-  animation: scroll-left 10s linear infinite;
-}
-
-@keyframes scroll-left {
+/* Animace běhu textu zprava do leva */
+@keyframes marquee {
   0% {
-    transform: translateX(0); /* Start mimo obrazovku zprava */
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%); /* Konec mimo obrazovku vlevo */
+    transform: translateX(-50%);
   }
 }
 
 /* ------------------- */
-/* POSUVNÝ TEXT konec */
+/* POSUVNÝ TEXT konec  */
 /* ------------------- */
+
+/* ------------------- */
+/* TROJÚHELNÍK         */
+/* ------------------- */
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 3mm solid transparent;
+  border-right: 3mm solid transparent;
+  border-bottom: 4mm solid var(--company-color-lightred);
+  position: absolute;
+  top: var(--triangle-top, 0); /* Defaultně 0 */
+  left: var(--triangle-left, 0); /* Defaultně 0 */
+  transform-origin: center center; /* Střed otáčení */
+  animation: rotate 10s linear infinite; /* Pomalu rotuje */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

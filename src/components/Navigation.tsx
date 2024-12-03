@@ -1,4 +1,4 @@
-import { Nav, Navbar, Container } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import logoGleton from "../assets/images/gletonlogo.png";
 import "./Navigation.css";
 
@@ -17,11 +17,11 @@ const MyNavbar = () => {
 
   return (
     <Navbar className="main-menu" expand="lg">
-      <Navbar.Brand href="#top">
+      <Navbar.Brand href="#top" className="ms-5">
         <img
           alt="Gleton Logo"
           src={logoGleton}
-          width="100"
+          width="120"
           height="auto"
           className="d-inline-block align-top"
         />

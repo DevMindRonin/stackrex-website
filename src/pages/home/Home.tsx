@@ -10,7 +10,6 @@ const App = () => {
       <Hero />
       <Numbers />
       <Main />
-      <RunningText />
       <Contact />
     </>
   );

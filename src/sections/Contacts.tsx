@@ -7,7 +7,7 @@ const Contact = () => {
     <Container fluid className="background-block">
       <Container>
         <Row className="d-flex flex-row container-content-second">
-          <Col sm={6} md={3}>
+          <Col sm={6} md={3} className="mb-3">
             <div className="logo-image-contact-container">
               <img
                 src={CompanyLogo}
@@ -15,20 +15,19 @@ const Contact = () => {
                 className="logo-image-contact-container size"
               />
             </div>
-            <div className="font-grey contact">
+            <div className="font-grey contact me-5">
               Společnost zapsaná v obchodním rejstříku vedeném Krajským soudem v
-              Brně, <br />
-              oddíl C, vložka 79794
+              Brně, oddíl C, vložka 79794
             </div>
           </Col>
-          <Col sm={6} md={3}>
+          <Col sm={6} md={3} className="mb-3">
             <div className="font-section-name white">Rychlý kontakt</div>
             <div className="font-grey contact">
               <div>+420 775 181 707</div>
               <div>info (zav) gleton.cz</div>
             </div>
           </Col>
-          <Col sm={6} md={3}>
+          <Col sm={6} md={3} className="mb-3">
             <div className="font-section-name white">Fakturační adresa</div>
             <div className="font-grey contact">
               <div>Gleton s.r.o.</div>
@@ -38,7 +37,7 @@ const Contact = () => {
               <div>DIČ: CZ01930257</div>
             </div>
           </Col>
-          <Col sm={6} md={3}>
+          <Col sm={6} md={3} className="mb-3">
             <div className="font-section-name white">Adresa provozovny</div>
             <div className="font-grey contact">
               <div>Gleton s.r.o.</div>
