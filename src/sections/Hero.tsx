@@ -13,7 +13,7 @@ const Hero = () => {
             hranice běžného
           </Col>
         </Row>
-        <Triangle top={"30%"} left={"70%"} />
+        <Triangle top={"30%"} left={"70%"} speed={"5s"} />
         <Row className="d-flex flex-row justify-content-between mb-5">
           <Col></Col>
           <Col className="fs-5 font-white">
@@ -21,7 +21,7 @@ const Hero = () => {
             lépe obstát, v neustále se měnícím konkurenčním prostředí.
           </Col>
         </Row>
-        <Triangle top={"50%"} left={"80%"} />
+        <Triangle top={"50%"} left={"80%"} speed={"15s"} />
       </div>
     </Container>
   );

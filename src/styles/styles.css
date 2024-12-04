@@ -311,14 +311,14 @@ body html {
   top: var(--triangle-top, 0); /* Defaultně 0 */
   left: var(--triangle-left, 0); /* Defaultně 0 */
   transform-origin: center center; /* Střed otáčení */
-  animation: rotate 10s linear infinite; /* Pomalu rotuje */
+  animation: rotate linear infinite var(--triangle-speed);
 }
 
 @keyframes rotate {
   from {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
