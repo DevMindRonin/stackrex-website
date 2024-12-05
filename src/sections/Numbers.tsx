@@ -26,7 +26,7 @@ const NumbersPage = () => {
                 </div>
 
                 <div className="d-flex flex-row">
-                  <div className="font-important numbers me-2">5K</div>
+                  <div className="font-important numbers me-2">5000</div>
                   <div className="d-flex flex-column justify-content-center ps-1">
                     <div className="font-important-redlight fs-4 lh-1">+</div>
                     <div className="lh-1 font-grey">
