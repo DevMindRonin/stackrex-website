@@ -85,21 +85,6 @@ body html {
 /* LOGO */
 /* -----*/
 
-/* .logo-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.logo-image-one {
-  margin: 30px 60px 30px 20px;
-}
-.logo-image-one.stacky {
-  filter: grayscale(100%);
-} */
-
 .logo-image-contact-container {
   width: 100%;
   margin-bottom: 10px;
@@ -221,6 +206,10 @@ body html {
 }
 .stack-img {
   filter: grayscale(100%);
+}
+
+.stack-img:hover {
+  filter: grayscale(0%);
 }
 
 .services-img {
