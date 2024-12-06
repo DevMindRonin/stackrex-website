@@ -1,11 +1,11 @@
 import cooperation1 from "./assets/images/cooperation/logo-ferratum.png";
 import cooperation2 from "./assets/images/cooperation/logo-krby-turbo.png";
 import cooperation3 from "./assets/images/cooperation/logo-banan.png";
-import cooperation4 from "./assets/images/cooperation/logo-petrkoval.png";
+import cooperation4 from "./assets/images/cooperation/logo-bankerat.png";
 import cooperation5 from "./assets/images/cooperation/logo-invoxtra.png";
 import cooperation6 from "./assets/images/cooperation/logo-nessap.png";
 import cooperation7 from "./assets/images/cooperation/logo-last.png";
-import cooperation8 from "./assets/images/cooperation/logo-bankerat.png";
+import cooperation8 from "./assets/images/cooperation/logo-petrkoval.png";
 import cooperation9 from "./assets/images/cooperation/logo-morso.png";
 import cooperation10 from "./assets/images/cooperation/logo-britrade.png";
 import cooperation11 from "./assets/images/cooperation/logo-eurohelp.png";
@@ -132,5 +132,44 @@ export const services = [
       "Automatizované generování reportů z dat. Zahrnuje přehledné vizualizace, exporty do různých formátů a možnosti přizpůsobení. Perfektní pro sledování výkonu a informované rozhodování.",
     image: imageservice3,
     link: "https://prismatic-cendol-ea81af.netlify.app/",
+  },
+];
+
+export const referencies = [
+  {
+    text: "Se společností Gleton s.r.o. jsme spokojeni od začátku. Žádné pevné měsíční poplatky, jednoduché a výstižné reporty. Platíme za dosažení výsledku, které se dostavily po 4 měsících.",
+    author: "Rostislav Síkora, Sale manager, Ferratum Bank Ltd.",
+  },
+  {
+    text: "Společnost Gleton s.r.o. pro nás vytvořila firemní stránky na míru podle našich požadavků a představ, se kterými<br>jsme velmi spokojeni. Oceňuji jejich profesionální přístup, rychlost a smysl pro detail.",
+    author: "Aleš Soukup, jednatel, Trapezy Soukup s.r.o.",
+  },
+  {
+    text: "Jsme spokojeni s komplexním přístupem firmy. Oceňujeme poctivost a objektivitu<br>podávaných informací, stejně jako snahu o maximální zefektivnění vynaložených prostředků.",
+    author: "Petr Bajer, předseda představenstva, Eurocompanies a.s.",
+  },
+  {
+    text: "Společnost Gleton s.r.o. patří mezi naše klíčové marketingové partnery. Hlavní atributy spolupráce jsou perfektní komunikace,<br>profesionalita a znalost oboru. V propagaci nových služeb a projektů budeme se společností Gleton s.r.o. znovu počítat.",
+    author: "Roman Kakos, člen představenstva, Bankerat a.s.",
+  },
+  {
+    text: "Se službami jsme spokojeni. Můžeme tuto společnost doporučit každému,<br>kdo usiluje o zkvalitnění optimalizace svých stránek ve vyhledávačích.",
+    author: "Ing. Tadeáš Vodička, jednatel, VODIZOL, s.r.o.",
+  },
+  {
+    text: "Děkujeme týmu Gleton s.r.o. za vynikající práci v krátkém čase. <br>Profesionálové s tvůrčím duchem. Klientský přístup na vysoké úrovni.",
+    author: "Daniel Krutiš, jednatel, HELION.CZ s.r.o.",
+  },
+  {
+    text: "U spolupráce s Gleton s.r.o. v oblasti SEO oceňujeme, že je iniciativní, má analytický přístup, přichází s nápady a pracuje samostatně. <br>Dokáže si poradit i s minimem vstupů z naší strany, ale když je potřebuje, ozve se. Pomohli nám zlepšit optimalizaci našeho webu a celkově hodnotím spolupráci pozitivně.",
+    author: "Jaroslava Kraibichová, OSVČ, BMK - MORSO",
+  },
+  {
+    text: "Spolupráce se společností Gleton s.r.o. pro nás byla dobrou volbou. Díky ní jsme rozšířili marketingový záběr společnosti na internetové vyhledávače a dosáhli skvělých výsledků. <br>Na naší dlouhodobé spolupráci oceňuji především osobní přístup, flexibilitu a profesionálnost. V budoucnu znovu jejich služby využijeme. Děkujeme.",
+    author: "Antonín Ambros, OSVČ, Orezstromu.cz",
+  },
+  {
+    text: "Společnost Gleton s.r.o. nám spravuje reklamní kampaně. Zásadní je pro nás spolehlivost a flexibilita při požadavcích na úpravy. <br>S výsledky spolupráce i s celkovým přístupem jsme spokojeni a společnost můžeme doporučit.",
+    author: "Jiří Kašpárek , jednatel, ŘÍZENÉ STROJE, s.r.o.",
   },
 ];

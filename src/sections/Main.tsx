@@ -6,6 +6,8 @@ import Team from "./Team";
 import Clients from "./Clients";
 import RunningText from "../components/RunningText";
 import Stack from "./Stack";
+import Referencies from "./Referencies";
+
 const HomeMain = () => {
   return (
     <>
@@ -15,6 +17,7 @@ const HomeMain = () => {
         <Clients />
         <Agile />
         <Stack />
+        {/* <Referencies /> */}
         <Team />
       </Container>
     </>
