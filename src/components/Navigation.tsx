@@ -1,19 +1,30 @@
 import { Nav, Navbar } from "react-bootstrap";
 import logoGleton from "../assets/images/gletonlogo.png";
 import "./Navigation.css";
+import { useState, useEffect } from "react";
 
 const MyNavbar = () => {
-  document.addEventListener("scroll", () => {
-    const navbar = document.querySelector(".main-menu");
+  const [isHamburgerOpen, setHamburgerOpen] = useState<boolean>(false);
 
-    if (navbar) {
-      if (window.scrollY > 0) {
-        navbar.classList.add("scrolled");
-      } else {
-        navbar.classList.remove("scrolled");
+  useEffect(() => {
+    const handleScroll = () => {
+      const navbar = document.querySelector(".main-menu");
+      if (navbar) {
+        if (isHamburgerOpen || window.scrollY > 0) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
       }
-    }
-  });
+    };
+    document.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    // Vyčištění event listeneru při unmountu
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [isHamburgerOpen]);
 
   return (
     <Navbar className="main-menu" expand="lg">
@@ -26,10 +37,14 @@ const MyNavbar = () => {
           className="d-inline-block align-top"
         />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        className="ms-auto"
+        onClick={() => setHamburgerOpen(!isHamburgerOpen)}
+      />
+      <Navbar.Collapse id="basic-navbar-nav" className="mt-1 ms-5">
         <Nav className="ms-auto text-light fw-bold">
-          <Nav.Link href="#our-servicies" className="text-light fw-bold me-4">
+          <Nav.Link href="#our-servicies" className="text-light fw-bold me-4 ">
             CO UMÍME
           </Nav.Link>
           <Nav.Link href="#our-clients" className="text-light me-4">
