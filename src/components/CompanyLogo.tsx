@@ -10,7 +10,7 @@ const CompanyLogo = () => {
             <img
               src={image.logo}
               alt=""
-              className="img-fluid ps-4 pe-4 pb-5 m-sm-3 m-md-0 m-lg-4"
+              className="img-fluid ps-4 pe-4 pb-5 m-sm-3 m-md-0 m-lg-4 logo-enlarge"
             />
           </div>
         );

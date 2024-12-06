@@ -17,9 +17,9 @@ import cooperation16 from "./assets/images/cooperation/logo-orezstromu.png";
 
 import stack1 from "./assets/images/stack/React.png";
 import stack2 from "./assets/images/stack/Typescript.png";
-import stack3 from "./assets/images/stack/JavaScript.png";
+import stack3 from "./assets/images/stack/express.png";
 import stack4 from "./assets/images/stack/Node.js.png";
-import stack5 from "./assets/images/stack/express.png";
+import stack5 from "./assets/images/stack/JavaScript.png";
 import stack6 from "./assets/images/stack/html5.png";
 import stack7 from "./assets/images/stack/css.png";
 import stack8 from "./assets/images/stack/figma.png";
