@@ -29,11 +29,14 @@ const MyNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto text-light fw-bold">
-          <Nav.Link href="#what-we-can-do" className="text-light fw-bold me-4">
+          <Nav.Link href="#our-servicies" className="text-light fw-bold me-4">
             CO UMÍME
           </Nav.Link>
           <Nav.Link href="#our-clients" className="text-light me-4">
             NAŠI KLIENTI
+          </Nav.Link>
+          <Nav.Link href="#our-stack" className="text-light me-4">
+            TECHNOLOGIE
           </Nav.Link>
           <Nav.Link href="#our-team" className="text-light me-4">
             TÝM

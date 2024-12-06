@@ -4,7 +4,7 @@ import "./../styles/styles.css";
 
 const Contact = () => {
   return (
-    <Container fluid className="background-block">
+    <Container fluid className="background-block" id="contact">
       <Container>
         <Row className="d-flex flex-row container-content-second">
           <Col sm={6} md={3} className="mb-3">

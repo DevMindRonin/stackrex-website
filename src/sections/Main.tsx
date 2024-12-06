@@ -11,7 +11,7 @@ import Referencies from "./Referencies";
 const HomeMain = () => {
   return (
     <>
-      <Container fluid className="container-content-main" id="what-we-can-do">
+      <Container fluid className="container-content-main">
         <Services />
         <RunningText />
         <Clients />

@@ -19,6 +19,10 @@ body html {
   overflow-y: hidden;
 }
 
+html {
+  scroll-padding-top: 50px;
+}
+
 /*            */
 /* CONTAINERS */
 /*            */

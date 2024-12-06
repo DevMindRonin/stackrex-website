@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <Container className="container-content-main sections firstone">
       <Row>
-        <Col md={3}>
+        <Col md={3} id="our-servicies">
           <div className="font-section-name">Co umíme</div>
           <div className="font-important">
             Aplikace napříč firemními potřebami
