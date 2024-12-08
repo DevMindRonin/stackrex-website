@@ -43,6 +43,11 @@ import imagemember4 from "./assets/images/team/team4.png";
 import imageservice1 from "./assets/images/services/dashboard1.jpg";
 import imageservice2 from "./assets/images/services/payment1.jpg";
 import imageservice3 from "./assets/images/services/signin1.jpg";
+import imageservice4 from "./assets/images/services/reports.jpg";
+import imageservice5 from "./assets/images/services/textcharts.jpg";
+import imageservice6 from "./assets/images/services/bullying.jpg";
+import imageservice7 from "./assets/images/services/calculator.jpg";
+import imageservice8 from "./assets/images/services/website.jpg";
 
 export const data = [
   { logo: cooperation1 },
@@ -105,34 +110,95 @@ export const team = [
 ];
 
 export const services = [
-  {
-    title: "Dashboard",
-    about:
-      "Interaktivní přehled dat na jednom místě. Umožňuje sledování klíčových metrik, analýzu trendů a přizpůsobení rozložení pro různé uživatele. Ideální pro efektivní řízení a rozhodování.",
-    image: imageservice1,
-    link: "https://loancalc-app.netlify.app/",
-  },
-  {
-    title: "Payment",
-    about:
-      "Bezpečný platební systém integrovaný s moderními API. Podporuje různé platební metody, automatické fakturace a uživatelsky přívětivý proces. Vhodný pro e-shopy i služby s opakovanými platbami.",
-    image: imageservice2,
-    link: "https://budget-dmr.netlify.app/",
-  },
-  {
-    title: "SignIn",
-    about:
-      "Jednoduchý a bezpečný proces přihlášení s podporou více metod, včetně hesel, OAuth (Google, Facebook) a dvoufázového ověření. Zajistí pohodlný a chráněný přístup pro uživatele.",
-    image: imageservice3,
-    link: "https://prismatic-cendol-ea81af.netlify.app/",
-  },
-  {
-    title: "Reporting",
-    about:
-      "Automatizované generování reportů z dat. Zahrnuje přehledné vizualizace, exporty do různých formátů a možnosti přizpůsobení. Perfektní pro sledování výkonu a informované rozhodování.",
-    image: imageservice3,
-    link: "https://prismatic-cendol-ea81af.netlify.app/",
-  },
+  [
+    { type: "empty" },
+    {
+      type: "image",
+      id: 0,
+      title: "Dashboard Application",
+      about:
+        "Interaktivní přehled dat na jednom místě. Umožňuje sledování klíčových metrik, analýzu trendů a přizpůsobení rozložení pro různé uživatele. Ideální pro efektivní řízení a rozhodování.",
+      image: imageservice1,
+      link: "",
+    },
+    { type: "empty" },
+    {
+      type: "image",
+      id: 1,
+      title: "Payment Component",
+      about:
+        "Bezpečný platební systém integrovaný s moderními API. Podporuje různé platební metody, automatické fakturace a uživatelsky přívětivý proces. Vhodný pro e-shopy i služby s opakovanými platbami.",
+      image: imageservice2,
+      link: "",
+    },
+  ],
+  [
+    {
+      type: "image",
+      id: 2,
+      title: "Sign-In Component",
+      about:
+        "Jednoduchý a bezpečný proces přihlášení s podporou více metod, včetně hesel, OAuth (Google, Facebook) a dvoufázového ověření. Zajistí pohodlný a chráněný přístup pro uživatele.",
+      image: imageservice3,
+      link: "",
+    },
+    { type: "empty" },
+    {
+      type: "image",
+      id: 3,
+      title: "Report Component",
+      about:
+        "Automatizované generování reportů z klientských dat. Zahrnuje přehledné vizualizace, exporty do různých formátů a možnosti přizpůsobení. Perfektní pro sledování výkonu a informované rozhodování.",
+      image: imageservice4,
+      link: "",
+    },
+    { type: "empty" },
+  ],
+  [
+    { type: "empty" },
+    {
+      type: "image",
+      id: 4,
+      title: "Textcharts Application",
+      about:
+        "Aplikace pro detailní analýzu textových dat ze souborů. Vyhodnotí sémantiku slov, jejich četnost a zobrazuje výstupy v přehledných grafech. Ideální pro zpracování dat v marketingu, výzkumu nebo školství.",
+      image: imageservice5,
+      link: "",
+    },
+    { type: "empty" },
+    {
+      type: "image",
+      id: 5,
+      title: "Bullying Application",
+      about:
+        "Moderní řešení pro snadné a anonymní nahlašování případů šikany či zneužívání ve školách a firmách. Podporuje okamžitou reakci, bezpečnost obětí a možnost analýzy nahlášených incidentů.",
+      image: imageservice6,
+      link: "https://budget-dmr.netlify.app/",
+    },
+  ],
+  [
+    {
+      type: "image",
+      id: 6,
+      title: "Loan Calculator Application",
+
+      about:
+        "Praktická kalkulačka pro snadný výpočet hypotéky. Umožňuje zohlednit výši úvěru, úrokovou sazbu, dobu splácení i připojení pojištění. Ideální nástroj pro finanční plánování.",
+      image: imageservice7,
+      link: "",
+    },
+    { type: "empty" },
+    {
+      type: "image",
+      id: 7,
+      title: "Landing Page",
+      about:
+        "Dynamická webová aplikace vytvořená v Reactu s bohatou škálou interaktivních prvků. Přizpůsobitelný design, responzivita a pokročilé funkce pro moderní online prezentaci firem či projektů.",
+      image: imageservice8,
+      link: "",
+    },
+    { type: "empty" },
+  ],
 ];
 
 export const referencies = [
