@@ -42,6 +42,7 @@ const ServiceGrid: React.FC<ServiceGridProps> = ({
                       showInfo={setShowInfo}
                       title={service.title}
                       about={service.about}
+                      benefits={service.benefits}
                       image={service.image}
                       link={service.link}
                     />

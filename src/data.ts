@@ -160,6 +160,24 @@ export const services = [
       title: "Dashboard Application",
       about:
         "Interaktivní přehled dat na jednom místě. Umožňuje sledování klíčových metrik, analýzu trendů a přizpůsobení rozložení pro různé uživatele. Ideální pro efektivní řízení a rozhodování.",
+      benefits: [
+        {
+          icon: "✔",
+          subtitle: "Využití",
+          description: "výkon prodejů, finance, zákaznické chování.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Benefity",
+          description:
+            "šetří čas, zjednodušuje rozhodování, zvyšuje efektivitu.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Bezpečnost",
+          description: "šifrovaná data, přístup dle rolí.",
+        },
+      ],
       image: imageservice1,
       link: "",
     },
@@ -170,6 +188,24 @@ export const services = [
       title: "Payment Component",
       about:
         "Bezpečný platební systém integrovaný s moderními API. Podporuje různé platební metody, automatické fakturace a uživatelsky přívětivý proces. Vhodný pro e-shopy i služby s opakovanými platbami.",
+      benefits: [
+        {
+          icon: "✔",
+          subtitle: "Využití",
+          description: "e-shopy, služby s opakovanými platbami.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Benefity",
+          description:
+            "automatické fakturace, snadný proces, široká podpora metod.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Bezpečnost",
+          description: "moderní API, šifrování, ochrana dat.",
+        },
+      ],
       image: imageservice2,
       link: "",
     },
@@ -181,6 +217,23 @@ export const services = [
       title: "Sign-In Component",
       about:
         "Jednoduchý a bezpečný proces přihlášení s podporou více metod, včetně hesel, OAuth (Google, Facebook) a dvoufázového ověření. Zajistí pohodlný a chráněný přístup pro uživatele.",
+      benefits: [
+        {
+          icon: "✔",
+          subtitle: "Metody přihlášení",
+          description: "hesla, OAuth (Google, Facebook), dvoufázové ověření.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Pohodlí",
+          description: "rychlý a snadný přístup pro uživatele.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Bezpečnost",
+          description: "zabezpečený přístup, ochrana dat.",
+        },
+      ],
       image: imageservice3,
       link: "",
     },
@@ -191,6 +244,23 @@ export const services = [
       title: "Report Component",
       about:
         "Automatizované generování reportů z klientských dat. Zahrnuje přehledné vizualizace, exporty do různých formátů a možnosti přizpůsobení. Perfektní pro sledování výkonu a informované rozhodování.",
+      benefits: [
+        {
+          icon: "✔",
+          subtitle: "Automatizace",
+          description: "rychlé generování reportů z dat.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Vizualizace",
+          description: "přehledné grafy a tabulky pro snadnou analýzu.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Přizpůsobení",
+          description: "možnost exportů a přizpůsobení reportů.",
+        },
+      ],
       image: imageservice4,
       link: "",
     },
@@ -204,6 +274,23 @@ export const services = [
       title: "Textcharts Application",
       about:
         "Aplikace pro detailní analýzu textových dat ze souborů. Vyhodnotí sémantiku slov, jejich četnost a zobrazuje výstupy v přehledných grafech. Ideální pro zpracování dat v marketingu, výzkumu nebo školství.",
+      benefits: [
+        {
+          icon: "✔",
+          subtitle: "Využití",
+          description: "marketing, výzkum, školství.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Analýza",
+          description: "sémantika, četnost slov, grafické výstupy.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Přehlednost",
+          description: "jednoduché zobrazení výsledků v grafech.",
+        },
+      ],
       image: imageservice5,
       link: "",
     },
@@ -214,6 +301,23 @@ export const services = [
       title: "Bullying Application",
       about:
         "Moderní řešení pro snadné a anonymní nahlašování případů šikany či zneužívání ve školách a firmách. Podporuje okamžitou reakci, bezpečnost obětí a možnost analýzy nahlášených incidentů.",
+      benefits: [
+        {
+          icon: "✔",
+          subtitle: "Využití",
+          description: "školy, firmy, prevence šikany a zneužívání.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Bezpečnost",
+          description: "anonymita, ochrana obětí.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Analýza",
+          description: "možnost analýzy nahlášených případů.",
+        },
+      ],
       image: imageservice6,
       link: "https://budget-dmr.netlify.app/",
     },
@@ -223,9 +327,26 @@ export const services = [
       type: "image",
       id: 6,
       title: "Loan Calculator Application",
-
       about:
-        "Praktická kalkulačka pro snadný výpočet hypotéky. Umožňuje zohlednit výši úvěru, úrokovou sazbu, dobu splácení i připojení pojištění. Ideální nástroj pro finanční plánování.",
+        "Praktická kalkulačka pro snadný výpočet hypotéky. Zohledňuje výši úvěru, úrokovou sazbu, dobu splácení i připojení pojištění. Ideální nástroj pro finanční plánování.",
+      benefits: [
+        {
+          icon: "✔",
+          subtitle: "Funkce",
+          description:
+            "výpočet úvěru, úrokové sazby, doby splácení, pojištění.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Pohodlí",
+          description: "snadné a rychlé výpočty.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Plánování",
+          description: "ideální nástroj pro osobní finanční plánování.",
+        },
+      ],
       image: imageservice7,
       link: "",
     },
@@ -236,6 +357,23 @@ export const services = [
       title: "Landing Page",
       about:
         "Dynamická webová aplikace vytvořená v Reactu s bohatou škálou interaktivních prvků. Přizpůsobitelný design, responzivita a pokročilé funkce pro moderní online prezentaci firem či projektů.",
+      benefits: [
+        {
+          icon: "✔",
+          subtitle: "Technologie",
+          description: "postaveno v Reactu, interaktivní prvky.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Design",
+          description: "přizpůsobitelný, responzivní pro různá zařízení.",
+        },
+        {
+          icon: "✔",
+          subtitle: "Funkce",
+          description: "pokročilé funkce pro moderní prezentaci.",
+        },
+      ],
       image: imageservice8,
       link: "",
     },
