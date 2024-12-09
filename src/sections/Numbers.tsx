@@ -15,7 +15,7 @@ const NumbersPage = () => {
             </div>
           </Col>
           <Col md={8} sm={12}>
-            <div className="d-flex flex-wrap h-100 align-items-center ps-5">
+            <div className="d-flex flex-wrap h-100 align-items-center ps-0 ps-md-5">
               <div className="col-12 col-sm-6 d-flex flex-column pe-4">
                 <div className="d-flex flex-row ">
                   <div className="font-important numbers me-2">109</div>
@@ -33,7 +33,7 @@ const NumbersPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-6 d-flex flex-column pe-4 ps-3">
+              <div className="col-12 col-sm-6 d-flex flex-column pe-4 ps-0 ps-md-3">
                 <div className="d-flex flex-row ">
                   <div className="font-important numbers me-2">5000</div>
                   <div className="d-flex flex-column justify-content-center ps-1">

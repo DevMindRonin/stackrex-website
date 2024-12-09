@@ -1,4 +1,3 @@
-import ModalWindow from "./../components/ModalWindow";
 import { Container, Row, Col } from "react-bootstrap";
 import { services } from "./../data.ts";
 import "./../styles/styles.css";
