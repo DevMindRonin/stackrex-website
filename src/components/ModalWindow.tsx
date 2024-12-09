@@ -45,18 +45,18 @@ const ModalWindow = ({
           <img className="img-fluid pb-5 border" src={image} alt="" />
           <div className="fw-bold pt-3">Popis: </div>
           <Row>
-            <Col md={5} className="mb-3">
+            <Col sm={12} md={12} lg={5} className="mb-3">
               {about}
             </Col>
-            <Col md={7}>
+            <Col sm={12} md={12} lg={7}>
               {benefits.map((benefit) => {
                 return (
-                  <div className="">
+                  <div>
                     <Row>
-                      <Col md={1}>
+                      <Col xs={2} sm={1}>
                         <span>{benefit.icon} </span>
                       </Col>
-                      <Col md={11}>
+                      <Col xs={10} sm={11}>
                         <span>
                           <b>{benefit.subtitle}: </b>
                         </span>
