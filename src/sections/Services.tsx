@@ -1,14 +1,15 @@
-import PictureDashboard from "../assets/images/services/dashboard1.jpg";
 import ModalWindow from "./../components/ModalWindow";
 import { Container, Row, Col } from "react-bootstrap";
 import { services } from "./../data.ts";
 import "./../styles/styles.css";
 import { useState, useEffect } from "react";
+import ListOfServices from "./../components/ListOfServices";
 
 const Services = () => {
   const [showInfo, setShowInfo] = useState<boolean>(false);
   const [modalName, setModalName] = useState<number>(0);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
   const clickResult = (name: number) => {
     setShowInfo(true);
     setModalName(name);
@@ -37,38 +38,14 @@ const Services = () => {
         <Col sm={12} md={12} lg={12} xl={9} className="mt-5">
           {services.map((item, index) => (
             <Row key={index}>
-              {item.map((service, subIndex) => {
-                if (service.type === "empty" && windowWidth < 992) {
-                  return null;
-                }
-
-                return (
-                  <Col key={subIndex} xs={12} md={6} lg={3}>
-                    {service.id !== undefined && (
-                      <div className="service-img-container">
-                        <div className="services-img mb-5">
-                          <img
-                            src={service.image}
-                            alt={service.title}
-                            className="img-fluid services-img"
-                            onClick={() => clickResult(service.id)}
-                          />
-                          <div className="overlay-text">{service.title}</div>
-                          {showInfo && modalName === service.id && (
-                            <ModalWindow
-                              showInfo={setShowInfo}
-                              title={service.title}
-                              about={service.about}
-                              image={service.image}
-                              link={service.link}
-                            />
-                          )}
-                        </div>
-                      </div>
-                    )}
-                  </Col>
-                );
-              })}
+              <ListOfServices
+                item={item}
+                windowWidth={windowWidth}
+                showInfo={showInfo}
+                modalName={modalName}
+                clickResult={clickResult}
+                setShowInfo={setShowInfo}
+              />
             </Row>
           ))}
         </Col>
@@ -76,18 +53,4 @@ const Services = () => {
     </Container>
   );
 };
-
-// Dashboard app
-// Payment component
-// Sign-in component
-// Report component
-
-// TextCharts app
-// NNTB app
-// Loancalc app
-// Website 
-
-// Shortener
-// Budget
-
 export default Services;

@@ -2,7 +2,7 @@ import "./../styles/styles.css";
 
 import { team } from "../data.ts";
 import { Row, Col } from "react-bootstrap";
-const TeamMembers = () => {
+const ListOfTeam = () => {
   return (
     <Row>
       {team.map((member, id) => {
@@ -30,4 +30,4 @@ const TeamMembers = () => {
   );
 };
 
-export default TeamMembers;
+export default ListOfTeam;

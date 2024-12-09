@@ -1,4 +1,4 @@
-import ListOfMembers from "../components/ListOfMembers";
+import ListOfTeam from "../components/ListOfTeam";
 import { Container } from "react-bootstrap";
 import "./../styles/styles.css";
 
@@ -9,7 +9,7 @@ const Team = () => {
         <div className="font-section-name">Tým</div>
         <div className="font-important mb-5">Členové týmu</div>
       </div>
-      <ListOfMembers />
+      <ListOfTeam />
     </Container>
   );
 };

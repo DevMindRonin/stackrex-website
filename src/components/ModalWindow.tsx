@@ -31,9 +31,9 @@ const ModalWindow = ({ showInfo, title, about, image, link }: Services) => {
           {about}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" href={link} target="_blank">
+          {/* <Button variant="primary" href={link} target="_blank">
             Ukázka
-          </Button>
+          </Button> */}
           <Button variant="secondary" onClick={handleDisableModal}>
             Zavřít
           </Button>
