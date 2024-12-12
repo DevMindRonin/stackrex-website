@@ -20,7 +20,6 @@ const MyNavbar = () => {
     document.addEventListener("scroll", handleScroll);
     handleScroll();
 
-    // Vyčištění event listeneru při unmountu
     return () => {
       document.removeEventListener("scroll", handleScroll);
     };
