@@ -41,11 +41,6 @@ import imagemember3 from "./assets/images/team/team3.png";
 import imagemember4 from "./assets/images/team/team4.png";
 import imagemember5 from "./assets/images/team/girl.png";
 import imagemember6 from "./assets/images/team/men.png";
-import imagemember7 from "./assets/images/team/men.png";
-import imagemember8 from "./assets/images/team/girl.png";
-import imagemember9 from "./assets/images/team/men.png";
-import imagemember10 from "./assets/images/team/men.png";
-import imagemember11 from "./assets/images/team/men.png";
 
 import imageservice1 from "./assets/images/services/dashboard1.jpg";
 import imageservice2 from "./assets/images/services/payment1.jpg";
@@ -101,53 +96,38 @@ export const team = [
   {
     member: imagemember1,
     name: "Marek",
-    role: "Frontend Developer",
+    role: "Tech Lead",
   },
-  { member: imagemember2, name: "Petr", role: "Frontend Developer" },
+  { member: imagemember2, name: "Tomáš", role: "Tech Lead" },
   {
     member: imagemember3,
-    name: "Lukáš",
-    role: "Backend Developer",
+    name: "Petr",
+    role: "Tech Lead",
   },
   {
     member: imagemember4,
     name: "Karel",
-    role: "Fullstack Developer",
-  },
-  {
-    member: imagemember5,
-    name: "Petra",
-    role: "Frontend Developer",
+    role: "Tech Lead",
   },
   {
     member: imagemember6,
-    name: "Tomáš",
-    role: "Frontend Developer",
-  },
-  {
-    member: imagemember7,
     name: "Jirka",
     role: "Business Manager",
   },
   {
-    member: imagemember8,
+    member: imagemember5,
     name: "Lenka",
     role: "Marketing Manager",
   },
   {
-    member: imagemember9,
+    member: imagemember6,
     name: "Jakub",
     role: "Product Manager",
   },
   {
-    member: imagemember10,
-    name: "Jirka",
+    member: imagemember6,
+    name: "Ladislav",
     role: "DevOps Engineer",
-  },
-  {
-    member: imagemember11,
-    name: "Tomáš",
-    role: "Scrum Master",
   },
 ];
 
