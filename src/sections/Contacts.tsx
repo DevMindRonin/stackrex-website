@@ -1,6 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import CompanyLogo from "./../assets/images/gletonlogo.png";
 import "./../styles/styles.css";
+import Praha from "./../assets/images/address/sidlo-praha.jpg";
+import Brno from "./../assets/images/address/sidlo-brno.jpeg";
 
 const Contact = () => {
   return (
@@ -16,35 +18,50 @@ const Contact = () => {
               />
             </div>
             <div className="font-grey contact me-5">
-              Společnost zapsaná v obchodním rejstříku vedeném Krajským soudem v
-              Brně, oddíl C, vložka 79794
+              <div>IČ: 01930257</div>
+              <div>DIČ: CZ01930257</div>
+              <br />
+              <div>
+                Společnost zapsaná v obchodním rejstříku vedeném Krajským soudem
+                v Brně, oddíl C, vložka 79794
+              </div>
             </div>
           </Col>
           <Col sm={6} md={3} className="mb-3">
-            <div className="font-section-name white">Rychlý kontakt</div>
+            <div className="font-section-name white">KONTAKT</div>
             <div className="font-grey contact">
               <div>+420 775 181 707</div>
               <div>info (zav) gleton.cz</div>
             </div>
           </Col>
           <Col sm={6} md={3} className="mb-3">
-            <div className="font-section-name white">Fakturační adresa</div>
+            <div className="font-section-name white">PRAHA</div>
             <div className="font-grey contact">
-              <div>Gleton s.r.o.</div>
-              <div>Nové sady 988/2</div>
-              <div>602 00 Brno - Staré Brno</div>
-              <div>IČ: 01930257</div>
-              <div>DIČ: CZ01930257</div>
+              <div>
+                <b>Gleton s.r.o. </b>
+              </div>
+
+              <div>Pernerova 51</div>
+
+              <div>186 00 Praha 8</div>
+            </div>
+            <br />
+            <div>
+              <img src={Praha} alt="" />
             </div>
           </Col>
           <Col sm={6} md={3} className="mb-3">
-            <div className="font-section-name white">Adresa provozovny</div>
+            <div className="font-section-name white">BRNO</div>
             <div className="font-grey contact">
-              <div>Gleton s.r.o.</div>
-              <div>Fakulta aplikované informatiky</div>
-              <div>Univerzita Tomáše Bati</div>
-              <div>Nad Stráněmi 4511</div>
-              <div>760 05 Zlín</div>
+              <div>
+                <b>Gleton s.r.o. </b>
+              </div>
+              <div>Nové sady 988/2</div>
+              <div>602 00 Brno - Staré Brno</div>
+            </div>
+            <br />
+            <div>
+              <img src={Brno} alt="" />
             </div>
           </Col>
         </Row>
