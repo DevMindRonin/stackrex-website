@@ -6,7 +6,7 @@ const Header = () => {
       <Row className="background-block">
         <Col>
           <div className="text-center m-4 font-grey contact">
-            Copyright © 2024 Gleton s.r.o.
+            Všechna práva vyhrazena společností Gleton s.r.o. © 2024
           </div>
         </Col>
       </Row>

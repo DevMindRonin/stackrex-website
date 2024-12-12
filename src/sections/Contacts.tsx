@@ -65,6 +65,7 @@ const Contact = () => {
             </div>
           </Col>
         </Row>
+        <hr className="border-1 border-light m-0 p-0" />
       </Container>
     </Container>
   );
