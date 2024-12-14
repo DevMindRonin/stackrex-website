@@ -38,7 +38,7 @@ const MyNavbar = () => {
       </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="basic-navbar-nav"
-        className="ms-auto"
+        className="ms-auto me-3 me-sm-5"
         onClick={() => setHamburgerOpen(!isHamburgerOpen)}
       />
       <Navbar.Collapse id="basic-navbar-nav" className="mt-1 ms-5">

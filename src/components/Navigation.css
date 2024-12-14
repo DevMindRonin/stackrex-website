@@ -11,3 +11,17 @@
 .main-menu.scrolled {
   background-color: #181818;
 }
+
+.navbar-toggler {
+  border: 2px solid gray !important; /* Viditelné šedé ohraničení */
+  border-radius: 4px; /* Volitelné zaoblení */
+}
+
+.navbar-toggler-icon {
+  background-image: linear-gradient(gray, gray), linear-gradient(gray, gray),
+    linear-gradient(gray, gray); /* Tři čáry */
+  background-size: 20px 2px, 20px 2px, 20px 2px; /* Šířka a tloušťka čar */
+  background-position: center 6px, center 12px, center 18px; /* Rozestupy mezi čarami */
+  background-repeat: no-repeat;
+  background-color: transparent; /* Bez pozadí */
+}
