@@ -5,18 +5,18 @@ const Hero = () => {
   return (
     <Container>
       <div id="top">
-        <Row>
-          <Col className="hero-claim">
+        <Row className="ms-4 ">
+          <Col md={12} className="hero-claim">
             Boříme <br />
             hranice běžného
           </Col>
         </Row>
-
-        <Row className="d-flex flex-row justify-content-between mb-5">
-          <Col></Col>
-          <Col className="fs-5 font-white">
-            Vytváříme webové a mobilní aplikace, které pomáhají našim klientů
-            lépe obstát, v neustále se měnícím konkurenčním prostředí.
+        <Row className="d-flex justify-content-end ms-5 me-2">
+          <Col md={6} className="fs-5 font-white text-start">
+            <div>
+              Vytváříme webové a mobilní aplikace, které pomáhají našim klientům
+              lépe obstát v neustále se měnícím konkurenčním prostředí.
+            </div>
           </Col>
         </Row>
         <Triangle top={"25%"} left={"75%"} speed={"5s"} />

@@ -6,7 +6,7 @@ const NumbersPage = () => {
     <Container>
       <div className="container-content-numbers text-white p-5">
         <Row>
-          <Col md={4} sm={12}>
+          <Col md={5} sm={12}>
             <div className="font-important me-3">Mezníky</div>
             <div className="mb-4 font-grey">
               S dlouholetými zkušenostmi, silným týmem, spokojenými klienty a
@@ -14,9 +14,9 @@ const NumbersPage = () => {
               aplikace.
             </div>
           </Col>
-          <Col md={8} sm={12}>
+          <Col md={7} sm={12}>
             <div className="d-flex flex-wrap h-100 align-items-center ps-0 ps-md-5">
-              <div className="col-12 col-sm-6 d-flex flex-column pe-4">
+              <div className=" col-sm-12 col-md-12 col-xl-6 d-flex flex-column pe-4">
                 <div className="d-flex flex-row ">
                   <div className="font-important numbers me-2">109</div>
                   <div className="d-flex flex-column justify-content-center flex-wrap ps-1">
@@ -33,7 +33,7 @@ const NumbersPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-6 d-flex flex-column pe-4 ps-0 ps-md-3">
+              <div className=" col-sm-12 col-md-12 col-xl-6 d-flex flex-column pe-4 ps-0 ">
                 <div className="d-flex flex-row ">
                   <div className="font-important numbers me-2">5000</div>
                   <div className="d-flex flex-column justify-content-center ps-1">
