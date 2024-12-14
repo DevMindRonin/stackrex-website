@@ -21,7 +21,7 @@ const Hero = () => {
         </Row>
         <Triangle top={"25%"} left={"75%"} speed={"5s"} />
         <Triangle top={"40%"} left={"90%"} speed={"20s"} />
-        <Triangle top={"90%"} left={"20%"} speed={"10s"} />
+        <Triangle top={"65%"} left={"20%"} speed={"10s"} />
       </div>
     </Container>
   );
