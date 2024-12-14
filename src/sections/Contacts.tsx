@@ -9,7 +9,7 @@ const Contact = () => {
     <Container fluid className="background-block" id="contact">
       <Container>
         <Row className="d-flex flex-row container-content-second">
-          <Col sm={6} md={3} className="mb-3">
+          <Col xs={12} sm={6} md={6} lg={3} className="mt-5 mb-xs-2 mb-md-5">
             <div className="logo-image-contact-container">
               <img
                 src={CompanyLogo}
@@ -27,14 +27,14 @@ const Contact = () => {
               </div>
             </div>
           </Col>
-          <Col sm={6} md={3} className="mb-3">
+          <Col xs={12} sm={6} md={6} lg={3} className="mt-5 mb-xs-2 mb-md-5">
             <div className="font-section-name white">KONTAKT</div>
             <div className="font-grey contact">
               <div>+420 775 181 707</div>
               <div>info (zav) gleton.cz</div>
             </div>
           </Col>
-          <Col sm={6} md={3} className="mb-3">
+          <Col xs={12} sm={6} md={6} lg={3} className="mt-5 mb-xs-2 mb-sm-5">
             <div className="font-section-name white">PRAHA</div>
             <div className="font-grey contact">
               <div>
@@ -47,10 +47,10 @@ const Contact = () => {
             </div>
             <br />
             <div>
-              <img src={Praha} alt="" />
+              <img src={Praha} alt="Pobočka Praha" className="img-fluid" />
             </div>
           </Col>
-          <Col sm={6} md={3} className="mb-3">
+          <Col xs={12} sm={6} md={6} lg={3} className="mt-5 mb-5">
             <div className="font-section-name white">BRNO</div>
             <div className="font-grey contact">
               <div>
@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
             <br />
             <div>
-              <img src={Brno} alt="" />
+              <img src={Brno} alt="Pobočka Brno" className="img-fluid" />
             </div>
           </Col>
         </Row>

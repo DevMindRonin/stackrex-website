@@ -1,12 +1,10 @@
 import "../styles/styles.css";
-import HeroBgImage from "../assets/images/hero_bg.jpeg";
 import { Container, Row, Col } from "react-bootstrap";
 import Triangle from "./../components/Triangle";
 const Hero = () => {
   return (
     <Container>
       <div id="top">
-        <img src={HeroBgImage} alt="" className="container-hero-image" />
         <Row>
           <Col className="hero-claim">
             Boříme <br />
@@ -22,8 +20,8 @@ const Hero = () => {
           </Col>
         </Row>
         <Triangle top={"25%"} left={"75%"} speed={"5s"} />
-        <Triangle top={"50%"} left={"90%"} speed={"20s"} />
-        <Triangle top={"65%"} left={"20%"} speed={"10s"} />
+        <Triangle top={"40%"} left={"90%"} speed={"20s"} />
+        <Triangle top={"90%"} left={"20%"} speed={"10s"} />
       </div>
     </Container>
   );

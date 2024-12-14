@@ -6,11 +6,11 @@ import "./styles/styles.css";
 
 const App = () => {
   return (
-    <>
+    <div className="container-hero-image">
       <Header />
       <Home />
       <Footer />
-    </>
+    </div>
   );
 };
 
