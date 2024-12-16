@@ -31,7 +31,7 @@ html {
   height: 100%;
   object-fit: cover;
   background-color: black;
-  background-image: url("./../assets/images/hero_bg.jpeg");
+  /* background-image: url("./../assets/images/hero_bg.jpeg"); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
