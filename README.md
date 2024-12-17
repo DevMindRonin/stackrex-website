@@ -63,4 +63,4 @@ Have a project in mind or want to know more? Feel free to reach out:
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-Copyright Gleton s.r.o. @2024
+
