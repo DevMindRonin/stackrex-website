@@ -9,14 +9,13 @@
 
 /* Globální styly pro celé React aplikaci */
 
-body html {
+body,
+html {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  color: var(--text-color-white);
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-y: hidden;
 }
 
 html {
@@ -125,7 +124,6 @@ html {
   font-weight: 700;
   line-height: 1.25em;
   color: var(--text-color-white);
-  word-break: break-word;
 }
 
 .font-white {
