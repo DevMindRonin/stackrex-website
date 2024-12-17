@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Gleton
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Welcome to Gleton – Your partner for developing web and mobile applications.**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 About Us
 
-### `npm start`
+At Gleton, we specialize in creating **custom web and mobile applications**. Our mission is to deliver user-friendly and technologically advanced solutions that help our clients grow and succeed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🔑 Our Values
+- **Innovation**: We constantly follow technological trends and integrate modern tools.
+- **Quality**: We deliver reliable and clean code.
+- **Collaboration**: Our clients are involved in the process from design to deployment.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Our Services
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We offer a wide range of services to meet your development needs, including:
 
-### `npm run build`
+- **Web Application Development**: We create dynamic and responsive web applications using the latest frameworks and technologies.
+- **Mobile Application Development**: Our mobile apps provide seamless experiences on both iOS and Android platforms.
+- **UI/UX Design**: We design intuitive and engaging user interfaces and experiences.
+- **Backend Development**: We build robust backend systems to support your applications.
+- **Cloud Solutions**: We offer scalable cloud infrastructure to ensure your app performs at its best.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Technologies We Use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We leverage a wide array of technologies to deliver high-quality applications:
 
-### `npm run eject`
+- **Frontend**: React, Angular, Vue.js, HTML5, CSS3
+- **Backend**: Node.js, Express, Django, Ruby on Rails
+- **Mobile**: React Native
+- **Databases**: MongoDB, PostgreSQL, MySQL
+- **Cloud**: AWS, Google Cloud, Microsoft Azure
+- **Version Control**: Git, GitHub, GitLab
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💡 Why Choose Us?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Tailored Solutions**: We build custom applications to fit your unique business needs.
+- **Proven Track Record**: We have a history of successfully delivering projects across various industries.
+- **Continuous Support**: Our relationship doesn’t end at launch. We offer ongoing support and maintenance to keep your app running smoothly.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 📞 Contact Us
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Have a project in mind or want to know more? Feel free to reach out:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 📧 Email: [info@gleton.cz](mailto:info@gleton.com)
+- 🌐 Website: [www.gleton.cz](https://www.gleton.cz)
+- 📞 Phone: +420 775 181 707
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
