@@ -4,8 +4,8 @@ const RunningText = () => {
   return (
     <div className="marquee1">
       <div className="marquee-text1 mb-5">
-        záleží nám na dobře odvedené práci odrážející se na spokojenosti klienta
-        vracejících se referencí a opakujícího se businessu záleží nám na dobře
+        záleží nám na kvalitně odvedené práci, která se odráží ve spokojenosti
+        klientů, pozitivních referencích a opakovaném byznysu
       </div>
     </div>
   );
