@@ -31,7 +31,7 @@ const MyNavbar = () => {
         <img
           alt="Stackrex Logo"
           src={logoStackrex}
-          width="190"
+          width="180"
           height="auto"
           className="d-inline-block align-top"
         />
