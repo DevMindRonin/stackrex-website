@@ -1,12 +1,12 @@
-# Gleton
+# Stackrex
 
-**Welcome to Gleton – Your partner for developing web and mobile applications.**
+**Welcome to Stackrex – Your partner for developing web and mobile applications.**
 
 ---
 
 ## 🚀 About Us
 
-At Gleton, we specialize in creating **custom web and mobile applications**. Our mission is to deliver user-friendly and technologically advanced solutions that help our clients grow and succeed.
+At Stackrex, we specialize in creating **custom web and mobile applications**. Our mission is to deliver user-friendly and technologically advanced solutions that help our clients grow and succeed.
 
 ### 🔑 Our Values
 - **Innovation**: We constantly follow technological trends and integrate modern tools.
@@ -52,8 +52,8 @@ We leverage a wide array of technologies to deliver high-quality applications:
 
 Have a project in mind or want to know more? Feel free to reach out:
 
-- 📧 Email: [info@gleton.cz](mailto:info@gleton.com)
-- 🌐 Website: [www.gleton.cz](https://www.gleton.cz)
+- 📧 Email: [info@stackrex.com](mailto:info@stackrex.com)
+- 🌐 Website: [www.stackrex.com](https://www.stackrex.com)
 - 📞 Phone: +420 775 181 707
 
 ---

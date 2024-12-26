@@ -1,5 +1,5 @@
 import { Nav, Navbar } from "react-bootstrap";
-import logoGleton from "../assets/images/gletonlogo.png";
+import logoStackrex from "../assets/images/Logo Stackrex white.png";
 import "./Navigation.css";
 import { useState, useEffect } from "react";
 
@@ -29,9 +29,9 @@ const MyNavbar = () => {
     <Navbar className="main-menu" expand="lg">
       <Navbar.Brand href="#top" className="ms-5">
         <img
-          alt="Gleton Logo"
-          src={logoGleton}
-          width="120"
+          alt="Stackrex Logo"
+          src={logoStackrex}
+          width="190"
           height="auto"
           className="d-inline-block align-top"
         />
