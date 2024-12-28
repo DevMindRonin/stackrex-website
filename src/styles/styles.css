@@ -9,14 +9,16 @@
 
 /* Globální styly pro celé React aplikaci */
 
-body html {
+body,
+html {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: var(--text-color-white);
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-y: hidden;
+
+  background-color: black;
 }
 
 html {
@@ -125,7 +127,6 @@ html {
   font-weight: 700;
   line-height: 1.25em;
   color: var(--text-color-white);
-  word-break: break-word;
 }
 
 .font-white {
@@ -300,6 +301,10 @@ html {
 }
 
 @media screen and (max-width: 768px) {
+  .container-hero-image {
+    background-attachment: scroll; /* Pro mobily nahrazeno "scroll" místo "fixed" */
+    height: auto; /* Přizpůsobení obsahu */
+  }
   .font-important {
     font-size: 35px;
     margin-bottom: 0px;
@@ -317,6 +322,10 @@ html {
 }
 
 @media screen and (max-width: 576px) {
+  .container-hero-image {
+    background-attachment: scroll;
+    height: auto;
+  }
   .services-img:hover {
     transform: scale(1);
   }
