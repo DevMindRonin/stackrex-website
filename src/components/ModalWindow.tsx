@@ -38,11 +38,7 @@ const ModalWindow = ({
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="p-5">
-          {/* <a href={link} target="_blank" rel="noreferrer">
-            <img className="img-fluid pb-5 border" src={image} alt="" />
-          </a> */}
-
-          <img className="img-fluid pb-5 border" src={image} alt="" />
+          <img className="img-fluid pb-5" src={image} alt="" />
           <div className="fw-bold pt-3">Popis: </div>
           <Row>
             <Col sm={12} md={12} lg={5} className="mb-3">
@@ -70,9 +66,6 @@ const ModalWindow = ({
           </Row>
         </Modal.Body>
         <Modal.Footer>
-          {/* <Button variant="primary" href={link} target="_blank">
-            Ukázka
-          </Button> */}
           <Button variant="secondary" onClick={handleDisableModal}>
             Zavřít
           </Button>
