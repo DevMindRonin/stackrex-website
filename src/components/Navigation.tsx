@@ -29,7 +29,7 @@ const MyNavbar = () => {
     <Navbar className="main-menu" expand="lg">
       <Navbar.Brand href="#top" className="ms-5">
         <img
-          alt="Stackrex Logo"
+          alt="StackRex Logo"
           src={logoStackrex}
           width="180"
           height="auto"
