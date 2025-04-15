@@ -1,12 +1,12 @@
 # Stackrex
 
-**Welcome to StackRex – Your partner for developing web and mobile applications.**
+**Welcome to Stackrex – Your partner for developing web and mobile applications.**
 
 ---
 
 ## 🚀 About Us
 
-At StackRex, we specialize in creating **custom web and mobile applications**. Our mission is to deliver user-friendly and technologically advanced solutions that help our clients grow and succeed.
+At Stackrex, we specialize in creating **custom web and mobile applications**. Our mission is to deliver user-friendly and technologically advanced solutions that help our clients grow and succeed.
 
 ### 🔑 Our Values
 - **Innovation**: We constantly follow technological trends and integrate modern tools.
@@ -54,7 +54,6 @@ Have a project in mind or want to know more? Feel free to reach out:
 
 - 📧 Email: [info@stackrex.com](mailto:info@stackrex.com)
 - 🌐 Website: [www.stackrex.com](https://www.stackrex.com)
-- 📞 Phone: +420 775 181 707
 
 ---
 
