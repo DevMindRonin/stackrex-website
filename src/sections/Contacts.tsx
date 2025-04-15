@@ -31,7 +31,7 @@ const Contact = () => {
           <Col xs={12} sm={6} md={6} lg={3} className="mt-5 mb-xs-2 mb-md-5">
             <div className="font-section-name white">KONTAKT</div>
             <div className="font-grey contact">
-              <div>+420 608 140 503</div>
+              <div>+420 775 181 707</div>
               <div>info (zav) stackrex.com</div>
             </div>
           </Col>
