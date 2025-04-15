@@ -54,7 +54,6 @@ Have a project in mind or want to know more? Feel free to reach out:
 
 - 📧 Email: [info@stackrex.com](mailto:info@stackrex.com)
 - 🌐 Website: [www.stackrex.com](https://www.stackrex.com)
-- 📞 Phone: +420 775 181 707
 
 ---
 
