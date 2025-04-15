@@ -10,14 +10,14 @@ At Stackrex, we specialize in creating **custom web and mobile applications**. O
 
 ### 🔑 Our Values
 - **Innovation**: We constantly follow technological trends and integrate modern tools.
-- **Quality**: We deliver reliable and clean code.
+- **Quality**: We deliver reliable and clean code. Just in time. 
 - **Collaboration**: Our clients are involved in the process from design to deployment.
 
 ---
 
 ## 🛠 Our Services
 
-We offer a wide range of services to meet your development needs, including:
+We offer a wide range of services to meet your development needs:
 
 - **Web Application Development**: We create dynamic and responsive web applications using the latest frameworks and technologies.
 - **Mobile Application Development**: Our mobile apps provide seamless experiences on both iOS and Android platforms.
@@ -31,12 +31,12 @@ We offer a wide range of services to meet your development needs, including:
 
 We leverage a wide array of technologies to deliver high-quality applications:
 
-- **Frontend**: React, Angular, Vue.js, HTML5, CSS3
-- **Backend**: Node.js, Express, Django, Ruby on Rails
+- **Frontend**: React, Next.js, HTML5, CSS3
+- **Backend**: Node.js, Express
 - **Mobile**: React Native
-- **Databases**: MongoDB, PostgreSQL, MySQL
+- **Databases**: PostgreSQL, MongoDB, MySQL
 - **Cloud**: AWS, Google Cloud, Microsoft Azure
-- **Version Control**: Git, GitHub, GitLab
+- **Version Control**: Git, GitHub, GitLab, BitBucket
 
 ---
 
@@ -44,7 +44,7 @@ We leverage a wide array of technologies to deliver high-quality applications:
 
 - **Tailored Solutions**: We build custom applications to fit your unique business needs.
 - **Proven Track Record**: We have a history of successfully delivering projects across various industries.
-- **Continuous Support**: Our relationship doesn’t end at launch. We offer ongoing support and maintenance to keep your app running smoothly.
+- **Continuous Support**: Our relationship doesn’t end at launch. We offer ongoing support and maintenance.
 
 ---
 
